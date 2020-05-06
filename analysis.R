@@ -227,7 +227,7 @@ data %>%
   scale_fill_manual(values = viridis::inferno(12)) +
   labs(title = 'Occurrences of words',
        subtitle = 'Capital - Volume I, Karl Marx', x = NULL, y = 'Occurrences',
-       caption = 'Source: Capital - Volume I, English edition first published in 1887\n @gustavoovital') +
+       caption = 'Source: Capital - Volume I. Karl Marx ') +
   facet_wrap(~Part, scales = 'free') +
   scale_x_reordered() +
   coord_flip() +
