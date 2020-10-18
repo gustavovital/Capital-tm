@@ -1,6 +1,5 @@
 # Text Minning of Vol I Capital
 # 
-# Autor: @gustavoovital
 # Author: @gustavoovital
 
 # Packages ----
