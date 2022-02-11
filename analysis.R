@@ -9,7 +9,7 @@ library(tidyverse)
 library(tidytext)
 library(extrafont)
 
-pdf_text('Capital-Volume-I.pdf')
+# pdf_text('Capital-Volume-I.pdf')
 
 Part_I_Commodities_and_Money <- pdf_text(pdf_subset('Capital-Volume-I.pdf', pages = 26:102, output = "parti.pdf"))
 Part_II_Transformation_of_Money_into_Capital <- pdf_text(pdf_subset('Capital-Volume-I.pdf', pages = 103:125, output = "partii.pdf"))
